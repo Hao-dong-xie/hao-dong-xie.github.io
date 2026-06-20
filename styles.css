@@ -210,8 +210,7 @@ li + li {
 
 .publication img {
   width: var(--thumb);
-  height: 98px;
-  object-fit: cover;
+  height: auto;
   border: 1px solid var(--rule);
   border-radius: 4px;
   background: var(--soft-bg);
@@ -291,6 +290,5 @@ li + li {
   .publication img {
     width: 100%;
     height: auto;
-    aspect-ratio: 2 / 1;
   }
 }
